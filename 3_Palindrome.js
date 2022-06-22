@@ -11,7 +11,6 @@
 //     - eye -> true
 
 // 1. 추가 문자열 활용
-
 function checkPalindrome1(str) {
     let reversed = "";
     for(let i = str.length -1; i >= 0; i--) {
@@ -21,7 +20,6 @@ function checkPalindrome1(str) {
 }
 
 // 2. Two Pointer 투포인터 활용
-
 function checkPalindrome2(str) {
     const len = str.length;
     const middle = Math.floor(len/2);
